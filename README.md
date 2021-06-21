@@ -18,14 +18,14 @@
   > 모델 별 그리드 서치 수행하며 청소년 통합/남자/여자 데이터 각각에 대해 모델 수립.
  
 ### Results 및 Discussion
- 
- 
+ ![image](https://user-images.githubusercontent.com/28617435/122830384-3a474f00-d323-11eb-9416-57d8202073ac.png)
  
  - 성능척도에 AUC와 F2 Score를 추가하였고 성능 비교 간 F2 Score을 활용하여 기존 F1 Score에 본 연구의 주요 척도인 recall에 대한 가중치를 부여하여 비교
  - “기법 별 효과”는 Random Forest는 PCA의 효과를, Logistic Regression은 K-mean전처리의 효과를, SVM은 비선형 Kernel SVM의 성능향상에 대한 효과를 기재
  - △는 세 데이터 중 하나라도 성능이 하락한 경우 기재, -는 해당사항이 없는 항목에 대해 기재
  - 비선형 커널 트릭으로 데이터의 비선형성까지 포착하여 model의 예측력 견인
  
+ ![image](https://user-images.githubusercontent.com/28617435/122830458-53500000-d323-11eb-9ec3-c92de85f3762.png)
 
    >  청소년 남자, 여자 비만에 영향을 주는 인자가 거의 비슷하지만 미세하게 차이를 보임
   
